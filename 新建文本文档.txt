@@ -1,0 +1,787 @@
+Xshell 5 (Build 1333)
+Copyright (c) 2002-2017 NetSarang Computer, Inc. All rights reserved.
+
+Type `help' to learn how to use Xshell prompt.
+[c:\~]$ 
+
+Host 'dev.p3china.com' resolved to 58.246.56.2.
+Connecting to 58.246.56.2:9522...
+Connection established.
+To escape to local shell, press 'Ctrl+Alt+]'.
+
+Last login: Tue Nov 21 09:04:35 2017 from 180.173.42.46
+[root@localhost ~]# ping 192.168.0.88
+PING 192.168.0.88 (192.168.0.88) 56(84) bytes of data.
+64 bytes from 192.168.0.88: icmp_seq=1 ttl=128 time=0.479 ms
+64 bytes from 192.168.0.88: icmp_seq=2 ttl=128 time=0.256 ms
+^C
+--- 192.168.0.88 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1007ms
+rtt min/avg/max/mdev = 0.256/0.367/0.479/0.113 ms
+[root@localhost ~]# cd /home
+[root@localhost home]# tar -xzvf jexus-5.8.3-x64.tar.gz 
+jexus/
+jexus/os.def
+jexus/jwsHttpd.exe
+jexus/jws.conf
+jexus/jws
+jexus/runtime/
+jexus/runtime/lib/
+jexus/runtime/lib/libICE.so.6
+jexus/runtime/lib/libfam.so.0
+jexus/runtime/lib/libasound.so.2
+jexus/runtime/lib/libexif.so.12
+jexus/runtime/lib/libtiff.so.3
+jexus/runtime/lib/libgif.so.4
+jexus/runtime/lib/libXrender.so.1
+jexus/runtime/lib/libpixman-1.so.0
+jexus/runtime/lib/libXau.so.6
+jexus/runtime/lib/libjpeg.so.62
+jexus/runtime/lib/libpng12.so.0
+jexus/runtime/lib/libfreetype.so.6
+jexus/runtime/lib/mono/
+jexus/runtime/lib/mono/update.sh
+jexus/runtime/lib/mono/gac/
+jexus/runtime/lib/mono/gac/System.Data.OracleClient/
+jexus/runtime/lib/mono/gac/System.Data.OracleClient/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.Data.OracleClient/4.0.0.0__b77a5c561934e089/System.Data.OracleClient.dll
+jexus/runtime/lib/mono/gac/System.Web.WebPages.Deployment/
+jexus/runtime/lib/mono/gac/System.Web.WebPages.Deployment/2.0.0.0__31bf3856ad364e35/
+jexus/runtime/lib/mono/gac/System.Web.WebPages.Deployment/2.0.0.0__31bf3856ad364e35/System.Web.WebPages.Deployment.dll
+jexus/runtime/lib/mono/gac/System.Data.Services/
+jexus/runtime/lib/mono/gac/System.Data.Services/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.Data.Services/4.0.0.0__b77a5c561934e089/System.Data.Services.dll
+jexus/runtime/lib/mono/gac/System.ComponentModel.DataAnnotations/
+jexus/runtime/lib/mono/gac/System.ComponentModel.DataAnnotations/4.0.0.0__31bf3856ad364e35/
+jexus/runtime/lib/mono/gac/System.ComponentModel.DataAnnotations/4.0.0.0__31bf3856ad364e35/System.ComponentModel.DataAnnotations.dll
+jexus/runtime/lib/mono/gac/System.ServiceModel.Activation/
+jexus/runtime/lib/mono/gac/System.ServiceModel.Activation/4.0.0.0__31bf3856ad364e35/
+jexus/runtime/lib/mono/gac/System.ServiceModel.Activation/4.0.0.0__31bf3856ad364e35/System.ServiceModel.Activation.dll
+jexus/runtime/lib/mono/gac/System.Net.Http/
+jexus/runtime/lib/mono/gac/System.Net.Http/4.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/System.Net.Http/4.0.0.0__b03f5f7f11d50a3a/System.Net.Http.dll
+jexus/runtime/lib/mono/gac/Mono.CSharp/
+jexus/runtime/lib/mono/gac/Mono.CSharp/4.0.0.0__0738eb9f132ed756/
+jexus/runtime/lib/mono/gac/Mono.CSharp/4.0.0.0__0738eb9f132ed756/Mono.CSharp.dll
+jexus/runtime/lib/mono/gac/System.Xml.Linq/
+jexus/runtime/lib/mono/gac/System.Xml.Linq/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.Xml.Linq/4.0.0.0__b77a5c561934e089/System.Xml.Linq.dll
+jexus/runtime/lib/mono/gac/System.Runtime.Serialization.Formatters.Soap/
+jexus/runtime/lib/mono/gac/System.Runtime.Serialization.Formatters.Soap/4.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/System.Runtime.Serialization.Formatters.Soap/4.0.0.0__b03f5f7f11d50a3a/System.Runtime.Serialization.Formatters.Soap.dll
+jexus/runtime/lib/mono/gac/System.ServiceModel.Web/
+jexus/runtime/lib/mono/gac/System.ServiceModel.Web/4.0.0.0__31bf3856ad364e35/
+jexus/runtime/lib/mono/gac/System.ServiceModel.Web/4.0.0.0__31bf3856ad364e35/System.ServiceModel.Web.dll
+jexus/runtime/lib/mono/gac/System.Net.Http.Formatting/
+jexus/runtime/lib/mono/gac/System.Net.Http.Formatting/4.0.0.0__31bf3856ad364e35/
+jexus/runtime/lib/mono/gac/System.Net.Http.Formatting/4.0.0.0__31bf3856ad364e35/System.Net.Http.Formatting.dll
+jexus/runtime/lib/mono/gac/System.Net.Http.WebRequest/
+jexus/runtime/lib/mono/gac/System.Net.Http.WebRequest/4.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/System.Net.Http.WebRequest/4.0.0.0__b03f5f7f11d50a3a/System.Net.Http.WebRequest.dll
+jexus/runtime/lib/mono/gac/System.Web.ApplicationServices/
+jexus/runtime/lib/mono/gac/System.Web.ApplicationServices/4.0.0.0__31bf3856ad364e35/
+jexus/runtime/lib/mono/gac/System.Web.ApplicationServices/4.0.0.0__31bf3856ad364e35/System.Web.ApplicationServices.dll
+jexus/runtime/lib/mono/gac/Microsoft.CSharp/
+jexus/runtime/lib/mono/gac/Microsoft.CSharp/4.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/Microsoft.CSharp/4.0.0.0__b03f5f7f11d50a3a/Microsoft.CSharp.dll
+jexus/runtime/lib/mono/gac/System.Runtime.Serialization/
+jexus/runtime/lib/mono/gac/System.Runtime.Serialization/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.Runtime.Serialization/4.0.0.0__b77a5c561934e089/System.Runtime.Serialization.dll
+jexus/runtime/lib/mono/gac/System.Data.DataSetExtensions/
+jexus/runtime/lib/mono/gac/System.Data.DataSetExtensions/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.Data.DataSetExtensions/4.0.0.0__b77a5c561934e089/System.Data.DataSetExtensions.dll
+jexus/runtime/lib/mono/gac/System.ServiceModel.Internals/
+jexus/runtime/lib/mono/gac/System.ServiceModel.Internals/0.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.ServiceModel.Internals/0.0.0.0__b77a5c561934e089/System.ServiceModel.Internals.dll
+jexus/runtime/lib/mono/gac/SMDiagnostics/
+jexus/runtime/lib/mono/gac/SMDiagnostics/0.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/SMDiagnostics/0.0.0.0__b77a5c561934e089/SMDiagnostics.dll
+jexus/runtime/lib/mono/gac/I18N.West/
+jexus/runtime/lib/mono/gac/I18N.West/4.0.0.0__0738eb9f132ed756/
+jexus/runtime/lib/mono/gac/I18N.West/4.0.0.0__0738eb9f132ed756/I18N.West.dll
+jexus/runtime/lib/mono/gac/System.Data/
+jexus/runtime/lib/mono/gac/System.Data/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.Data/4.0.0.0__b77a5c561934e089/System.Data.dll
+jexus/runtime/lib/mono/gac/System.Web.WebPages/
+jexus/runtime/lib/mono/gac/System.Web.WebPages/2.0.0.0__31bf3856ad364e35/
+jexus/runtime/lib/mono/gac/System.Web.WebPages/2.0.0.0__31bf3856ad364e35/System.Web.WebPages.dll
+jexus/runtime/lib/mono/gac/System.Web.Routing/
+jexus/runtime/lib/mono/gac/System.Web.Routing/4.0.0.0__31bf3856ad364e35/
+jexus/runtime/lib/mono/gac/System.Web.Routing/4.0.0.0__31bf3856ad364e35/System.Web.Routing.dll
+jexus/runtime/lib/mono/gac/System.Numerics.Vectors/
+jexus/runtime/lib/mono/gac/System.Numerics.Vectors/4.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/System.Numerics.Vectors/4.0.0.0__b03f5f7f11d50a3a/System.Numerics.Vectors.dll
+jexus/runtime/lib/mono/gac/System.Runtime.Caching/
+jexus/runtime/lib/mono/gac/System.Runtime.Caching/4.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/System.Runtime.Caching/4.0.0.0__b03f5f7f11d50a3a/System.Runtime.Caching.dll
+jexus/runtime/lib/mono/gac/System.Transactions/
+jexus/runtime/lib/mono/gac/System.Transactions/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.Transactions/4.0.0.0__b77a5c561934e089/System.Transactions.dll
+jexus/runtime/lib/mono/gac/System.Web.Abstractions/
+jexus/runtime/lib/mono/gac/System.Web.Abstractions/4.0.0.0__31bf3856ad364e35/
+jexus/runtime/lib/mono/gac/System.Web.Abstractions/4.0.0.0__31bf3856ad364e35/System.Web.Abstractions.dll
+jexus/runtime/lib/mono/gac/I18N.CJK/
+jexus/runtime/lib/mono/gac/I18N.CJK/4.0.0.0__0738eb9f132ed756/
+jexus/runtime/lib/mono/gac/I18N.CJK/4.0.0.0__0738eb9f132ed756/I18N.CJK.dll
+jexus/runtime/lib/mono/gac/System.Web.Mvc/
+jexus/runtime/lib/mono/gac/System.Web.Mvc/3.0.0.0__31bf3856ad364e35/
+jexus/runtime/lib/mono/gac/System.Web.Mvc/3.0.0.0__31bf3856ad364e35/System.Web.Mvc.dll
+jexus/runtime/lib/mono/gac/I18N.Other/
+jexus/runtime/lib/mono/gac/I18N.Other/4.0.0.0__0738eb9f132ed756/
+jexus/runtime/lib/mono/gac/I18N.Other/4.0.0.0__0738eb9f132ed756/I18N.Other.dll
+jexus/runtime/lib/mono/gac/System.Web.DynamicData/
+jexus/runtime/lib/mono/gac/System.Web.DynamicData/4.0.0.0__31bf3856ad364e35/
+jexus/runtime/lib/mono/gac/System.Web.DynamicData/4.0.0.0__31bf3856ad364e35/System.Web.DynamicData.dll
+jexus/runtime/lib/mono/gac/System.IO.Compression.FileSystem/
+jexus/runtime/lib/mono/gac/System.IO.Compression.FileSystem/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.IO.Compression.FileSystem/4.0.0.0__b77a5c561934e089/System.IO.Compression.FileSystem.dll
+jexus/runtime/lib/mono/gac/System.ServiceProcess/
+jexus/runtime/lib/mono/gac/System.ServiceProcess/4.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/System.ServiceProcess/4.0.0.0__b03f5f7f11d50a3a/System.ServiceProcess.dll
+jexus/runtime/lib/mono/gac/System.Management/
+jexus/runtime/lib/mono/gac/System.Management/4.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/System.Management/4.0.0.0__b03f5f7f11d50a3a/System.Management.dll
+jexus/runtime/lib/mono/gac/Mono.Posix/
+jexus/runtime/lib/mono/gac/Mono.Posix/4.0.0.0__0738eb9f132ed756/
+jexus/runtime/lib/mono/gac/Mono.Posix/4.0.0.0__0738eb9f132ed756/Mono.Posix.dll
+jexus/runtime/lib/mono/gac/System.Threading.Tasks.Dataflow/
+jexus/runtime/lib/mono/gac/System.Threading.Tasks.Dataflow/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.Threading.Tasks.Dataflow/4.0.0.0__b77a5c561934e089/System.Threading.Tasks.Dataflow.dll
+jexus/runtime/lib/mono/gac/WindowsBase/
+jexus/runtime/lib/mono/gac/WindowsBase/4.0.0.0__31bf3856ad364e35/
+jexus/runtime/lib/mono/gac/WindowsBase/4.0.0.0__31bf3856ad364e35/WindowsBase.dll
+jexus/runtime/lib/mono/gac/I18N.Rare/
+jexus/runtime/lib/mono/gac/I18N.Rare/4.0.0.0__0738eb9f132ed756/
+jexus/runtime/lib/mono/gac/I18N.Rare/4.0.0.0__0738eb9f132ed756/I18N.Rare.dll
+jexus/runtime/lib/mono/gac/System.Messaging/
+jexus/runtime/lib/mono/gac/System.Messaging/4.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/System.Messaging/4.0.0.0__b03f5f7f11d50a3a/System.Messaging.dll
+jexus/runtime/lib/mono/gac/System.DirectoryServices.Protocols/
+jexus/runtime/lib/mono/gac/System.DirectoryServices.Protocols/4.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/System.DirectoryServices.Protocols/4.0.0.0__b03f5f7f11d50a3a/System.DirectoryServices.Protocols.dll
+jexus/runtime/lib/mono/gac/System.Runtime.Remoting/
+jexus/runtime/lib/mono/gac/System.Runtime.Remoting/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.Runtime.Remoting/4.0.0.0__b77a5c561934e089/System.Runtime.Remoting.dll
+jexus/runtime/lib/mono/gac/System.Numerics/
+jexus/runtime/lib/mono/gac/System.Numerics/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.Numerics/4.0.0.0__b77a5c561934e089/System.Numerics.dll
+jexus/runtime/lib/mono/gac/I18N.MidEast/
+jexus/runtime/lib/mono/gac/I18N.MidEast/4.0.0.0__0738eb9f132ed756/
+jexus/runtime/lib/mono/gac/I18N.MidEast/4.0.0.0__0738eb9f132ed756/I18N.MidEast.dll
+jexus/runtime/lib/mono/gac/System.Xaml/
+jexus/runtime/lib/mono/gac/System.Xaml/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.Xaml/4.0.0.0__b77a5c561934e089/System.Xaml.dll
+jexus/runtime/lib/mono/gac/System.Net/
+jexus/runtime/lib/mono/gac/System.Net/4.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/System.Net/4.0.0.0__b03f5f7f11d50a3a/System.Net.dll
+jexus/runtime/lib/mono/gac/I18N/
+jexus/runtime/lib/mono/gac/I18N/4.0.0.0__0738eb9f132ed756/
+jexus/runtime/lib/mono/gac/I18N/4.0.0.0__0738eb9f132ed756/I18N.dll
+jexus/runtime/lib/mono/gac/System.Security/
+jexus/runtime/lib/mono/gac/System.Security/4.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/System.Security/4.0.0.0__b03f5f7f11d50a3a/System.Security.dll
+jexus/runtime/lib/mono/gac/Mono.Http/
+jexus/runtime/lib/mono/gac/Mono.Http/4.0.0.0__0738eb9f132ed756/
+jexus/runtime/lib/mono/gac/Mono.Http/4.0.0.0__0738eb9f132ed756/Mono.Http.dll
+jexus/runtime/lib/mono/gac/System.Design/
+jexus/runtime/lib/mono/gac/System.Design/4.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/System.Design/4.0.0.0__b03f5f7f11d50a3a/System.Design.dll
+jexus/runtime/lib/mono/gac/System.Web.Http/
+jexus/runtime/lib/mono/gac/System.Web.Http/4.0.0.0__31bf3856ad364e35/
+jexus/runtime/lib/mono/gac/System.Web.Http/4.0.0.0__31bf3856ad364e35/System.Web.Http.dll
+jexus/runtime/lib/mono/gac/System.IdentityModel/
+jexus/runtime/lib/mono/gac/System.IdentityModel/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.IdentityModel/4.0.0.0__b77a5c561934e089/System.IdentityModel.dll
+jexus/runtime/lib/mono/gac/System.Core/
+jexus/runtime/lib/mono/gac/System.Core/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.Core/4.0.0.0__b77a5c561934e089/System.Core.dll
+jexus/runtime/lib/mono/gac/System/
+jexus/runtime/lib/mono/gac/System/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System/4.0.0.0__b77a5c561934e089/System.dll
+jexus/runtime/lib/mono/gac/Microsoft.VisualC/
+jexus/runtime/lib/mono/gac/Microsoft.VisualC/0.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/Microsoft.VisualC/0.0.0.0__b03f5f7f11d50a3a/Microsoft.VisualC.dll
+jexus/runtime/lib/mono/gac/System.Windows.Forms/
+jexus/runtime/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll
+jexus/runtime/lib/mono/gac/System.Web.Services/
+jexus/runtime/lib/mono/gac/System.Web.Services/4.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/System.Web.Services/4.0.0.0__b03f5f7f11d50a3a/System.Web.Services.dll
+jexus/runtime/lib/mono/gac/System.Json.Microsoft/
+jexus/runtime/lib/mono/gac/System.Json.Microsoft/4.0.0.0__31bf3856ad364e35/
+jexus/runtime/lib/mono/gac/System.Json.Microsoft/4.0.0.0__31bf3856ad364e35/System.Json.Microsoft.dll
+jexus/runtime/lib/mono/gac/System.Web.Razor/
+jexus/runtime/lib/mono/gac/System.Web.Razor/2.0.0.0__31bf3856ad364e35/
+jexus/runtime/lib/mono/gac/System.Web.Razor/2.0.0.0__31bf3856ad364e35/System.Web.Razor.dll
+jexus/runtime/lib/mono/gac/System.ServiceModel/
+jexus/runtime/lib/mono/gac/System.ServiceModel/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.ServiceModel/4.0.0.0__b77a5c561934e089/System.ServiceModel.dll
+jexus/runtime/lib/mono/gac/Mono.Security/
+jexus/runtime/lib/mono/gac/Mono.Security/4.0.0.0__0738eb9f132ed756/
+jexus/runtime/lib/mono/gac/Mono.Security/4.0.0.0__0738eb9f132ed756/Mono.Security.dll
+jexus/runtime/lib/mono/gac/jxAspx/
+jexus/runtime/lib/mono/gac/jxAspx/5.8.0.0__488c7b5409836374/
+jexus/runtime/lib/mono/gac/jxAspx/5.8.0.0__488c7b5409836374/jxAspx.dll
+jexus/runtime/lib/mono/gac/ICSharpCode.SharpZipLib/
+jexus/runtime/lib/mono/gac/ICSharpCode.SharpZipLib/4.84.0.0__1b03e6acf1164f73/
+jexus/runtime/lib/mono/gac/ICSharpCode.SharpZipLib/4.84.0.0__1b03e6acf1164f73/ICSharpCode.SharpZipLib.dll
+jexus/runtime/lib/mono/gac/System.Xml/
+jexus/runtime/lib/mono/gac/System.Xml/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.Xml/4.0.0.0__b77a5c561934e089/System.Xml.dll
+jexus/runtime/lib/mono/gac/System.Data.Services.Client/
+jexus/runtime/lib/mono/gac/System.Data.Services.Client/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.Data.Services.Client/4.0.0.0__b77a5c561934e089/System.Data.Services.Client.dll
+jexus/runtime/lib/mono/gac/System.Drawing.Design/
+jexus/runtime/lib/mono/gac/System.Drawing.Design/4.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/System.Drawing.Design/4.0.0.0__b03f5f7f11d50a3a/System.Drawing.Design.dll
+jexus/runtime/lib/mono/gac/Accessibility/
+jexus/runtime/lib/mono/gac/Accessibility/4.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/Accessibility/4.0.0.0__b03f5f7f11d50a3a/Accessibility.dll
+jexus/runtime/lib/mono/gac/Microsoft.Web.Infrastructure/
+jexus/runtime/lib/mono/gac/Microsoft.Web.Infrastructure/1.0.0.0__31bf3856ad364e35/
+jexus/runtime/lib/mono/gac/Microsoft.Web.Infrastructure/1.0.0.0__31bf3856ad364e35/Microsoft.Web.Infrastructure.dll
+jexus/runtime/lib/mono/gac/System.Web.Http.WebHost/
+jexus/runtime/lib/mono/gac/System.Web.Http.WebHost/4.0.0.0__31bf3856ad364e35/
+jexus/runtime/lib/mono/gac/System.Web.Http.WebHost/4.0.0.0__31bf3856ad364e35/System.Web.Http.WebHost.dll
+jexus/runtime/lib/mono/gac/System.Dynamic/
+jexus/runtime/lib/mono/gac/System.Dynamic/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.Dynamic/4.0.0.0__b77a5c561934e089/System.Dynamic.dll
+jexus/runtime/lib/mono/gac/System.DirectoryServices/
+jexus/runtime/lib/mono/gac/System.DirectoryServices/4.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/System.DirectoryServices/4.0.0.0__b03f5f7f11d50a3a/System.DirectoryServices.dll
+jexus/runtime/lib/mono/gac/System.Configuration/
+jexus/runtime/lib/mono/gac/System.Configuration/4.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/System.Configuration/4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll
+jexus/runtime/lib/mono/gac/System.Data.Entity/
+jexus/runtime/lib/mono/gac/System.Data.Entity/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.Data.Entity/4.0.0.0__b77a5c561934e089/System.Data.Entity.dll
+jexus/runtime/lib/mono/gac/System.Drawing/
+jexus/runtime/lib/mono/gac/System.Drawing/4.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/System.Drawing/4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll
+jexus/runtime/lib/mono/gac/System.Web.Extensions/
+jexus/runtime/lib/mono/gac/System.Web.Extensions/4.0.0.0__31bf3856ad364e35/
+jexus/runtime/lib/mono/gac/System.Web.Extensions/4.0.0.0__31bf3856ad364e35/System.Web.Extensions.dll
+jexus/runtime/lib/mono/gac/System.EnterpriseServices/
+jexus/runtime/lib/mono/gac/System.EnterpriseServices/4.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/System.EnterpriseServices/4.0.0.0__b03f5f7f11d50a3a/System.EnterpriseServices.dll
+jexus/runtime/lib/mono/gac/System.Configuration.Install/
+jexus/runtime/lib/mono/gac/System.Configuration.Install/4.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/System.Configuration.Install/4.0.0.0__b03f5f7f11d50a3a/System.Configuration.Install.dll
+jexus/runtime/lib/mono/gac/System.Web/
+jexus/runtime/lib/mono/gac/System.Web/4.0.0.0__b03f5f7f11d50a3a/
+jexus/runtime/lib/mono/gac/System.Web/4.0.0.0__b03f5f7f11d50a3a/System.Web.dll
+jexus/runtime/lib/mono/gac/Mono.Data.Sqlite/
+jexus/runtime/lib/mono/gac/Mono.Data.Sqlite/4.0.0.0__0738eb9f132ed756/
+jexus/runtime/lib/mono/gac/Mono.Data.Sqlite/4.0.0.0__0738eb9f132ed756/Mono.Data.Sqlite.dll
+jexus/runtime/lib/mono/gac/Novell.Directory.Ldap/
+jexus/runtime/lib/mono/gac/Novell.Directory.Ldap/4.0.0.0__0738eb9f132ed756/
+jexus/runtime/lib/mono/gac/Novell.Directory.Ldap/4.0.0.0__0738eb9f132ed756/Novell.Directory.Ldap.dll
+jexus/runtime/lib/mono/gac/System.Data.Linq/
+jexus/runtime/lib/mono/gac/System.Data.Linq/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.Data.Linq/4.0.0.0__b77a5c561934e089/System.Data.Linq.dll
+jexus/runtime/lib/mono/gac/System.Json/
+jexus/runtime/lib/mono/gac/System.Json/4.0.0.0__31bf3856ad364e35/
+jexus/runtime/lib/mono/gac/System.Json/4.0.0.0__31bf3856ad364e35/System.Json.dll
+jexus/runtime/lib/mono/gac/System.IO.Compression/
+jexus/runtime/lib/mono/gac/System.IO.Compression/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.IO.Compression/4.0.0.0__b77a5c561934e089/System.IO.Compression.dll
+jexus/runtime/lib/mono/gac/Mono.Data.Tds/
+jexus/runtime/lib/mono/gac/Mono.Data.Tds/4.0.0.0__0738eb9f132ed756/
+jexus/runtime/lib/mono/gac/Mono.Data.Tds/4.0.0.0__0738eb9f132ed756/Mono.Data.Tds.dll
+jexus/runtime/lib/mono/gac/jxHost/
+jexus/runtime/lib/mono/gac/jxHost/5.8.0.0__488c7b5409836374/
+jexus/runtime/lib/mono/gac/jxHost/5.8.0.0__488c7b5409836374/jxHost.dll
+jexus/runtime/lib/mono/gac/System.Web.WebPages.Razor/
+jexus/runtime/lib/mono/gac/System.Web.WebPages.Razor/2.0.0.0__31bf3856ad364e35/
+jexus/runtime/lib/mono/gac/System.Web.WebPages.Razor/2.0.0.0__31bf3856ad364e35/System.Web.WebPages.Razor.dll
+jexus/runtime/lib/mono/gac/System.Xml.Serialization/
+jexus/runtime/lib/mono/gac/System.Xml.Serialization/4.0.0.0__b77a5c561934e089/
+jexus/runtime/lib/mono/gac/System.Xml.Serialization/4.0.0.0__b77a5c561934e089/System.Xml.Serialization.dll
+jexus/runtime/lib/mono/4.5/
+jexus/runtime/lib/mono/4.5/System.Web.WebPages.Razor.dll
+jexus/runtime/lib/mono/4.5/System.ServiceModel.dll
+jexus/runtime/lib/mono/4.5/System.IO.Compression.dll
+jexus/runtime/lib/mono/4.5/Microsoft.CodeAnalysis.dll
+jexus/runtime/lib/mono/4.5/System.ComponentModel.DataAnnotations.dll
+jexus/runtime/lib/mono/4.5/System.Data.OracleClient.dll
+jexus/runtime/lib/mono/4.5/System.ServiceModel.Activation.dll
+jexus/runtime/lib/mono/4.5/System.Web.Extensions.dll
+jexus/runtime/lib/mono/4.5/System.IdentityModel.dll
+jexus/runtime/lib/mono/4.5/System.Numerics.dll
+jexus/runtime/lib/mono/4.5/System.Web.Abstractions.dll
+jexus/runtime/lib/mono/4.5/System.Xml.Linq.dll
+jexus/runtime/lib/mono/4.5/System.Net.dll
+jexus/runtime/lib/mono/4.5/System.Drawing.dll
+jexus/runtime/lib/mono/4.5/System.Data.dll
+jexus/runtime/lib/mono/4.5/System.Core.dll
+jexus/runtime/lib/mono/4.5/System.Net.Http.WebRequest.dll
+jexus/runtime/lib/mono/4.5/Microsoft.Web.Infrastructure.dll
+jexus/runtime/lib/mono/4.5/System.Web.ApplicationServices.dll
+jexus/runtime/lib/mono/4.5/Microsoft.CodeAnalysis.CSharp.dll
+jexus/runtime/lib/mono/4.5/Facades/
+jexus/runtime/lib/mono/4.5/Facades/System.Reflection.Primitives.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Security.Cryptography.RSA.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Net.WebSockets.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Net.ServicePoint.dll
+jexus/runtime/lib/mono/4.5/Facades/System.IO.UnmanagedMemoryStream.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Collections.Specialized.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Diagnostics.TextWriterTraceListener.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Linq.Parallel.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Threading.dll
+jexus/runtime/lib/mono/4.5/Facades/System.IO.Pipes.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Threading.ThreadPool.dll
+jexus/runtime/lib/mono/4.5/Facades/Microsoft.Win32.Registry.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Runtime.InteropServices.RuntimeInformation.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Security.Cryptography.ProtectedData.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Diagnostics.Tracing.dll
+jexus/runtime/lib/mono/4.5/Facades/System.AppContext.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Security.Claims.dll
+jexus/runtime/lib/mono/4.5/Facades/System.IO.FileSystem.AccessControl.dll
+jexus/runtime/lib/mono/4.5/Facades/System.ServiceModel.Duplex.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Security.Cryptography.Hashing.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Threading.AccessControl.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Reflection.TypeExtensions.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Text.Encoding.Extensions.dll
+jexus/runtime/lib/mono/4.5/Facades/System.IO.FileSystem.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Globalization.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Diagnostics.Process.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Resources.ReaderWriter.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Text.RegularExpressions.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Collections.NonGeneric.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Net.Utilities.dll
+jexus/runtime/lib/mono/4.5/Facades/netstandard.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Diagnostics.Debug.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Threading.Tasks.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Runtime.InteropServices.WindowsRuntime.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Text.Encoding.CodePages.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Reflection.Extensions.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Runtime.Numerics.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Diagnostics.Contracts.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Runtime.InteropServices.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Reflection.Emit.ILGeneration.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Security.Cryptography.Algorithms.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Net.Requests.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Console.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Linq.Queryable.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Reflection.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Security.Principal.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Security.SecureString.dll
+jexus/runtime/lib/mono/4.5/Facades/Microsoft.Win32.Registry.AccessControl.dll
+jexus/runtime/lib/mono/4.5/Facades/System.IO.FileSystem.Primitives.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Xml.XDocument.dll
+jexus/runtime/lib/mono/4.5/Facades/System.ComponentModel.Primitives.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Runtime.Serialization.Json.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Threading.Timer.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Security.AccessControl.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Linq.Expressions.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Collections.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Diagnostics.TraceSource.dll
+jexus/runtime/lib/mono/4.5/Facades/System.ObjectModel.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Net.NameResolution.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Security.Cryptography.X509Certificates.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Text.Encoding.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Linq.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Data.Common.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Xml.XmlDocument.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Runtime.Serialization.Xml.dll
+jexus/runtime/lib/mono/4.5/Facades/System.ComponentModel.TypeConverter.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Diagnostics.TraceEvent.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Xml.Xsl.Primitives.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Net.Security.dll
+jexus/runtime/lib/mono/4.5/Facades/System.ServiceModel.NetTcp.dll
+jexus/runtime/lib/mono/4.5/Facades/System.ServiceProcess.ServiceController.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Threading.Thread.dll
+jexus/runtime/lib/mono/4.5/Facades/System.ComponentModel.Annotations.dll
+jexus/runtime/lib/mono/4.5/Facades/System.IO.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Reflection.Emit.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Net.WebHeaderCollection.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Net.AuthenticationManager.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Net.Sockets.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Dynamic.Runtime.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Security.Cryptography.Encryption.ECDiffieHellman.dll
+jexus/runtime/lib/mono/4.5/Facades/Microsoft.Win32.Primitives.dll
+jexus/runtime/lib/mono/4.5/Facades/System.IO.FileSystem.DriveInfo.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Security.Cryptography.Encryption.dll
+jexus/runtime/lib/mono/4.5/Facades/System.ComponentModel.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Threading.Tasks.Parallel.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Runtime.Handles.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Resources.ResourceManager.dll
+jexus/runtime/lib/mono/4.5/Facades/System.ValueTuple.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Runtime.CompilerServices.VisualC.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Xml.XmlSerializer.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Globalization.Extensions.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Reflection.Emit.Lightweight.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Data.SqlClient.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Net.HttpListener.dll
+jexus/runtime/lib/mono/4.5/Facades/System.ServiceModel.Primitives.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Xml.XPath.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Runtime.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Xml.ReaderWriter.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Security.Cryptography.RandomNumberGenerator.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Net.NetworkInformation.dll
+jexus/runtime/lib/mono/4.5/Facades/System.IO.FileSystem.Watcher.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Xml.XPath.XDocument.dll
+jexus/runtime/lib/mono/4.5/Facades/System.IO.IsolatedStorage.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Security.Principal.Windows.dll
+jexus/runtime/lib/mono/4.5/Facades/System.IO.Compression.ZipFile.dll
+jexus/runtime/lib/mono/4.5/Facades/System.ComponentModel.EventBasedAsync.dll
+jexus/runtime/lib/mono/4.5/Facades/System.ServiceModel.Http.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Security.Cryptography.Encryption.Aes.dll
+jexus/runtime/lib/mono/4.5/Facades/System.IO.MemoryMappedFiles.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Runtime.Extensions.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Diagnostics.Tools.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Runtime.Serialization.Primitives.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Globalization.Calendars.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Security.Cryptography.Encoding.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Net.WebSockets.Client.dll
+jexus/runtime/lib/mono/4.5/Facades/System.ServiceModel.Security.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Security.Cryptography.Encryption.ECDsa.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Drawing.Primitives.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Security.Cryptography.Hashing.Algorithms.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Collections.Concurrent.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Security.Cryptography.DeriveBytes.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Net.Primitives.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Net.Mail.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Net.Cache.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Security.Cryptography.Primitives.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Diagnostics.FileVersionInfo.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Threading.Overlapped.dll
+jexus/runtime/lib/mono/4.5/Facades/System.Diagnostics.StackTrace.dll
+jexus/runtime/lib/mono/4.5/Microsoft.CSharp.targets
+jexus/runtime/lib/mono/4.5/System.Runtime.Serialization.Formatters.Soap.dll
+jexus/runtime/lib/mono/4.5/System.Web.Razor.dll
+jexus/runtime/lib/mono/4.5/System.Xml.Serialization.dll
+jexus/runtime/lib/mono/4.5/System.Net.Http.dll
+jexus/runtime/lib/mono/4.5/System.IO.Compression.FileSystem.dll
+jexus/runtime/lib/mono/4.5/System.Reflection.Metadata.dll
+jexus/runtime/lib/mono/4.5/System.Configuration.Install.dll
+jexus/runtime/lib/mono/4.5/System.Runtime.Caching.dll
+jexus/runtime/lib/mono/4.5/System.Collections.Immutable.dll
+jexus/runtime/lib/mono/4.5/System.Xml.dll
+jexus/runtime/lib/mono/4.5/System.Web.WebPages.dll
+jexus/runtime/lib/mono/4.5/System.ServiceModel.Web.dll
+jexus/runtime/lib/mono/4.5/System.Net.Http.Formatting.dll
+jexus/runtime/lib/mono/4.5/System.EnterpriseServices.dll
+jexus/runtime/lib/mono/4.5/System.Data.Linq.dll
+jexus/runtime/lib/mono/4.5/resgen.exe
+jexus/runtime/lib/mono/4.5/csc.exe
+jexus/runtime/lib/mono/4.5/al.exe
+jexus/runtime/lib/mono/4.5/Microsoft.CSharp.dll
+jexus/runtime/lib/mono/4.5/System.Data.DataSetExtensions.dll
+jexus/runtime/lib/mono/4.5/System.Windows.Forms.dll
+jexus/runtime/lib/mono/4.5/System.Xaml.dll
+jexus/runtime/lib/mono/4.5/System.Messaging.dll
+jexus/runtime/lib/mono/4.5/System.Web.Routing.dll
+jexus/runtime/lib/mono/4.5/System.Web.dll
+jexus/runtime/lib/mono/4.5/System.Web.Http.WebHost.dll
+jexus/runtime/lib/mono/4.5/System.Web.Services.dll
+jexus/runtime/lib/mono/4.5/System.Drawing.Design.dll
+jexus/runtime/lib/mono/4.5/mcs.exe
+jexus/runtime/lib/mono/4.5/System.Design.dll
+jexus/runtime/lib/mono/4.5/System.Web.Mvc.dll
+jexus/runtime/lib/mono/4.5/System.Web.WebPages.Deployment.dll
+jexus/runtime/lib/mono/4.5/Accessibility.dll
+jexus/runtime/lib/mono/4.5/System.Web.DynamicData.dll
+jexus/runtime/lib/mono/4.5/System.Dynamic.dll
+jexus/runtime/lib/mono/4.5/System.Configuration.dll
+jexus/runtime/lib/mono/4.5/mscorlib.dll
+jexus/runtime/lib/mono/4.5/System.Web.Http.dll
+jexus/runtime/lib/mono/4.5/System.Runtime.Serialization.dll
+jexus/runtime/lib/mono/4.5/System.Transactions.dll
+jexus/runtime/lib/mono/4.5/System.Data.Entity.dll
+jexus/runtime/lib/mono/4.5/System.Security.dll
+jexus/runtime/lib/mono/4.5/System.Runtime.Remoting.dll
+jexus/runtime/lib/mono/4.5/Mono.Data.Sqlite.dll
+jexus/runtime/lib/mono/4.5/System.dll
+jexus/runtime/lib/libX11.so.6
+jexus/runtime/lib/libgamin-1.so.0
+jexus/runtime/lib/libexpat.so.1
+jexus/runtime/lib/libfontconfig.so.1
+jexus/runtime/lib/libcairo.so.2
+jexus/runtime/lib/libglib-2.0.so.0
+jexus/runtime/lib/libungif.so.4
+jexus/runtime/lib/libxcb.so.1
+jexus/runtime/lib/libSM.so.6
+jexus/runtime/lib/libgdiplus.so
+jexus/runtime/etc/
+jexus/runtime/etc/mono/
+jexus/runtime/etc/mono/2.0/
+jexus/runtime/etc/mono/2.0/machine.config
+jexus/runtime/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx
+jexus/runtime/etc/mono/2.0/Browsers/
+jexus/runtime/etc/mono/2.0/Browsers/Compat.browser
+jexus/runtime/etc/mono/2.0/settings.map
+jexus/runtime/etc/mono/2.0/web.config
+jexus/runtime/etc/mono/config
+jexus/runtime/etc/mono/registry/
+jexus/runtime/etc/mono/registry/LocalMachine/
+jexus/runtime/etc/mono/mconfig/
+jexus/runtime/etc/mono/mconfig/config.xml
+jexus/runtime/etc/mono/4.0/
+jexus/runtime/etc/mono/4.0/machine.config
+jexus/runtime/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx
+jexus/runtime/etc/mono/4.0/Browsers/
+jexus/runtime/etc/mono/4.0/Browsers/Compat.browser
+jexus/runtime/etc/mono/4.0/settings.map
+jexus/runtime/etc/mono/4.0/web.config
+jexus/runtime/etc/mono/4.5/
+jexus/runtime/etc/mono/4.5/machine.config
+jexus/runtime/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx
+jexus/runtime/etc/mono/4.5/Browsers/
+jexus/runtime/etc/mono/4.5/Browsers/Compat.browser
+jexus/runtime/etc/mono/4.5/settings.map
+jexus/runtime/etc/mono/4.5/web.config
+jexus/runtime/etc/mono/browscap.ini
+jexus/runtime/bin/
+jexus/runtime/bin/resgen
+jexus/runtime/bin/mcs
+jexus/runtime/bin/al
+jexus/runtime/bin/csc
+jexus/runtime/bin/resgen2
+jexus/runtime/bin/al2
+jexus/state4.conf
+jexus/def.py
+jexus/jwsHttpd.exe.so
+jexus/mozroots
+jexus/jwss
+jexus/log/
+jexus/log/jws.log
+jexus/readme.cn.txt
+jexus/siteconf/
+jexus/siteconf/default
+[root@localhost home]# cd jexus/
+[root@localhost jexus]# ls
+def.py  jws.conf      jwsHttpd.exe.so  log       os.def         runtime   state4.conf
+jws     jwsHttpd.exe  jwss             mozroots  readme.cn.txt  siteconf
+[root@localhost jexus]# cd ..
+[root@localhost home]# cd /usr/jexus
+[root@localhost jexus]# ./jws restart
+Restarting ... OK
+[root@localhost jexus]# curl localhost:8082/PlatManage/PowerPlat/Login/Login
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style type="text/css">
+body { background-color: #FFFFFF; font-size: .75em; font-family: Verdana, Helvetica, Sans-Serif; margin: 0; padding: 0;	color: #696969; }
+a:link { color: #000000; text-decoration: underline; }
+a:visited { color: #000000; }
+a:hover { color: #000000; text-decoration: none; }
+a:active { color: #12eb87; }
+p, ul {	margin-bottom: 20px; line-height: 1.6em; }
+pre { font-size: 1.2em;	margin-left: 20px; margin-top: 0px; }
+h1, h2, h3, h4, h5, h6 { font-size: 1.6em; color: #000;	font-family: Arial, Helvetica, sans-serif; }
+h1 { font-weight: bold;	margin-bottom: 0; margin-top: 0; padding-bottom: 0; }
+h2 { font-size: 1em; padding: 0 0 0px 0; color: #696969; font-weight: normal; margin-top: 0; margin-bottom: 20px; }
+h2.exceptionMessage { white-space: pre; }
+h3 { font-size: 1.2em; }
+h4 { font-size: 1.1em; }
+h5, h6 { font-size: 1em; }
+#header { position: relative; margin-bottom: 0px; color: #000; padding: 0; background-color: #5c87b2; height: 38px; padding-left: 10px; }
+#header h1 { font-weight: bold;	padding: 5px 0;	margin: 0; color: #fff;	border: none; line-height: 2em;	font-family: Arial, Helvetica, sans-serif; font-size: 32px !important; }
+#header-image { float: left; padding: 3px; margin-left: 1px; margin-right: 1px; }
+#header-text { color: #fff; font-size: 1.4em; line-height: 38px; font-weight: bold; }
+#main {	padding: 20px 20px 15px 20px; background-color: #fff; _height: 1px; }
+#footer { color: #999; padding: 5px 0; text-align: left; line-height: normal; margin: 20px 0px 0px 0px;	font-size: .9em; border-top: solid 1px #5C87B2; }
+#footer-powered-by { float: right; }
+.details { font-family: monospace; border: solid 1px #e8eef4; white-space: pre; font-size: 1.2em; overflow: auto; padding: 6px; margin-top: 6px; background-color: #eeeeff; color: 555555 }
+.details-wrapped { white-space: normal }
+.details-header { margin-top: 1.5em }
+.details-header a { font-weight: bold; text-decoration: none }
+p { margin-bottom: 0.3em; margin-top: 0.1em }
+.sourceErrorLine { color: #770000; font-weight: bold; }
+</style>
+<script type="text/javascript">
+	var hideElementsById = new Array ();
+	window.onload = function () {
+		if (!hideElementsById || hideElementsById.length < 1)
+			return;
+		for (index in hideElementsById)
+			toggle (hideElementsById [index]);
+	}
+	
+	function toggle (divId)
+	{
+		var e = document.getElementById (divId);
+		if (!e)
+			return;
+		var h = document.getElementById (divId + "Hint");
+		if (e.style.display == "block" || e.style.display == "") {
+			e.style.display = "none";
+			if (h)
+				h.innerHTML = " (click to show)";
+		} else {
+			e.style.display = "block";
+			if (h)
+				h.innerHTML = " (click to hide)";
+		}
+	}
+</script>
+<title>Error 404</title>
+</head>
+<body>
+<div class="page">
+<div id="header">
+<div id="header-text">Application Exception</div>
+</div>
+<div id="main">
+  <h1>System.Web.HttpException</h1>
+  <h2 class="exceptionMessage">The resource cannot be found.</h2>
+  <p><strong>Description:</strong> HTTP 404.The resource you are looking for (or one of its dependencies) could have been removed, had its name changed, or is temporarily unavailable.  Please review the following URL and make sure that it is spelled correctly.</p><p><strong>Details:</strong> Requested URL: /PlatManage/PowerPlat/Login/Login</p>
+<div><strong>Exception stack trace:</strong></div>
+<div class="details">  at System.Web.StaticFileHandler.ProcessRequest (System.Web.HttpContext context) [0x000b9] in &lt;773b4d6751eb49b6b9905c61cc1619de&gt;:0 
+  at System.Web.DefaultHttpHandler.BeginProcessRequest (System.Web.HttpContext context, System.AsyncCallback callback, System.Object state) [0x0007f] in &lt;773b4d6751eb49b6b9905c61cc1619de&gt;:0 
+  at System.Web.HttpApplication+&lt;Pipeline&gt;d__225.MoveNext () [0x008d4] in &lt;773b4d6751eb49b6b9905c61cc1619de&gt;:0 
+  at System.Web.HttpApplication.Tick () [0x00000] in &lt;773b4d6751eb49b6b9905c61cc1619de&gt;:0 </div><div id="footer">
+  <div style="color:Black;"><strong>Version Information:</strong> <tt>5.2.0.224 (tarball)</tt>; ASP.NET Version: <tt>4.0.30319.42000</tt></div>
+  <div id="footer-powered-by">Powered by <a href="http://mono-project.com/">Mono</a></div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+<!--
+[System.Web.HttpException]: Path &#39;/PlatManage/PowerPlat/Login/Login&#39; was not found.
+  at System.Web.StaticFileHandler.ProcessRequest (System.Web.HttpContext context) [0x000b9] in <773b4d6751eb49b6b9905c61cc1619de>:0 
+  at System.Web.DefaultHttpHandler.BeginProcessRequest (System.Web.HttpContext context, System.AsyncCallback callback, System.Object state) [0x0007f] in <773b4d6751eb49b6b9905c61cc1619de>:0 
+  at System.Web.HttpApplication+<Pipeline>d__225.MoveNext () [0x008d4] in <773b4d6751eb49b6b9905c61cc1619de>:0 
+  at System.Web.HttpApplication.Tick () [0x00000] in <773b4d6751eb49b6b9905c61cc1619de>:0 
+-->
+[root@localhost jexus]# curl localhost:8082/PlatManage/PowerPlat/Login
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style type="text/css">
+body { background-color: #FFFFFF; font-size: .75em; font-family: Verdana, Helvetica, Sans-Serif; margin: 0; padding: 0;	color: #696969; }
+a:link { color: #000000; text-decoration: underline; }
+a:visited { color: #000000; }
+a:hover { color: #000000; text-decoration: none; }
+a:active { color: #12eb87; }
+p, ul {	margin-bottom: 20px; line-height: 1.6em; }
+pre { font-size: 1.2em;	margin-left: 20px; margin-top: 0px; }
+h1, h2, h3, h4, h5, h6 { font-size: 1.6em; color: #000;	font-family: Arial, Helvetica, sans-serif; }
+h1 { font-weight: bold;	margin-bottom: 0; margin-top: 0; padding-bottom: 0; }
+h2 { font-size: 1em; padding: 0 0 0px 0; color: #696969; font-weight: normal; margin-top: 0; margin-bottom: 20px; }
+h2.exceptionMessage { white-space: pre; }
+h3 { font-size: 1.2em; }
+h4 { font-size: 1.1em; }
+h5, h6 { font-size: 1em; }
+#header { position: relative; margin-bottom: 0px; color: #000; padding: 0; background-color: #5c87b2; height: 38px; padding-left: 10px; }
+#header h1 { font-weight: bold;	padding: 5px 0;	margin: 0; color: #fff;	border: none; line-height: 2em;	font-family: Arial, Helvetica, sans-serif; font-size: 32px !important; }
+#header-image { float: left; padding: 3px; margin-left: 1px; margin-right: 1px; }
+#header-text { color: #fff; font-size: 1.4em; line-height: 38px; font-weight: bold; }
+#main {	padding: 20px 20px 15px 20px; background-color: #fff; _height: 1px; }
+#footer { color: #999; padding: 5px 0; text-align: left; line-height: normal; margin: 20px 0px 0px 0px;	font-size: .9em; border-top: solid 1px #5C87B2; }
+#footer-powered-by { float: right; }
+.details { font-family: monospace; border: solid 1px #e8eef4; white-space: pre; font-size: 1.2em; overflow: auto; padding: 6px; margin-top: 6px; background-color: #eeeeff; color: 555555 }
+.details-wrapped { white-space: normal }
+.details-header { margin-top: 1.5em }
+.details-header a { font-weight: bold; text-decoration: none }
+p { margin-bottom: 0.3em; margin-top: 0.1em }
+.sourceErrorLine { color: #770000; font-weight: bold; }
+</style>
+<script type="text/javascript">
+	var hideElementsById = new Array ();
+	window.onload = function () {
+		if (!hideElementsById || hideElementsById.length < 1)
+			return;
+		for (index in hideElementsById)
+			toggle (hideElementsById [index]);
+	}
+	
+	function toggle (divId)
+	{
+		var e = document.getElementById (divId);
+		if (!e)
+			return;
+		var h = document.getElementById (divId + "Hint");
+		if (e.style.display == "block" || e.style.display == "") {
+			e.style.display = "none";
+			if (h)
+				h.innerHTML = " (click to show)";
+		} else {
+			e.style.display = "block";
+			if (h)
+				h.innerHTML = " (click to hide)";
+		}
+	}
+</script>
+<title>Error 404</title>
+</head>
+<body>
+<div class="page">
+<div id="header">
+<div id="header-text">Application Exception</div>
+</div>
+<div id="main">
+  <h1>System.Web.HttpException</h1>
+  <h2 class="exceptionMessage">The resource cannot be found.</h2>
+  <p><strong>Description:</strong> HTTP 404.The resource you are looking for (or one of its dependencies) could have been removed, had its name changed, or is temporarily unavailable.  Please review the following URL and make sure that it is spelled correctly.</p><p><strong>Details:</strong> No virtual path information available.</p>
+<div><strong>Exception stack trace:</strong></div>
+<div class="details">  at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance (System.Web.Routing.RequestContext requestContext, System.Type controllerType) [0x0003d] in &lt;cc73190bab9d435c831510ff295c572a&gt;:0 
+  at System.Web.Mvc.DefaultControllerFactory.CreateController (System.Web.Routing.RequestContext requestContext, System.String controllerName) [0x0003c] in &lt;cc73190bab9d435c831510ff295c572a&gt;:0 
+  at System.Web.Mvc.MvcHandler.ProcessRequestInit (System.Web.HttpContextBase httpContext, System.Web.Mvc.IController&amp; controller, System.Web.Mvc.IControllerFactory&amp; factory) [0x00066] in &lt;cc73190bab9d435c831510ff295c572a&gt;:0 
+  at System.Web.Mvc.MvcHandler.BeginProcessRequest (System.Web.HttpContextBase httpContext, System.AsyncCallback callback, System.Object state) [0x00012] in &lt;cc73190bab9d435c831510ff295c572a&gt;:0 
+  at System.Web.Mvc.MvcHandler.BeginProcessRequest (System.Web.HttpContext httpContext, System.AsyncCallback callback, System.Object state) [0x00007] in &lt;cc73190bab9d435c831510ff295c572a&gt;:0 
+  at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest (System.Web.HttpContext context, System.AsyncCallback cb, System.Object extraData) [0x00000] in &lt;cc73190bab9d435c831510ff295c572a&gt;:0 
+  at System.Web.HttpApplication+&lt;Pipeline&gt;d__225.MoveNext () [0x008d4] in &lt;773b4d6751eb49b6b9905c61cc1619de&gt;:0 
+  at System.Web.HttpApplication.Tick () [0x00000] in &lt;773b4d6751eb49b6b9905c61cc1619de&gt;:0 </div><div id="footer">
+  <div style="color:Black;"><strong>Version Information:</strong> <tt>5.2.0.224 (tarball)</tt>; ASP.NET Version: <tt>4.0.30319.42000</tt></div>
+  <div id="footer-powered-by">Powered by <a href="http://mono-project.com/">Mono</a></div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+<!--
+[System.Web.HttpException]: 未找到路径“/PlatManage/PowerPlat/Login”的控制器或该控制器未实现 IController。
+  at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance (System.Web.Routing.RequestContext requestContext, System.Type controllerType) [0x0003d] in <cc73190bab9d435c831510ff295c572a>:0 
+  at System.Web.Mvc.DefaultControllerFactory.CreateController (System.Web.Routing.RequestContext requestContext, System.String controllerName) [0x0003c] in <cc73190bab9d435c831510ff295c572a>:0 
+  at System.Web.Mvc.MvcHandler.ProcessRequestInit (System.Web.HttpContextBase httpContext, System.Web.Mvc.IController& controller, System.Web.Mvc.IControllerFactory& factory) [0x00066] in <cc73190bab9d435c831510ff295c572a>:0 
+  at System.Web.Mvc.MvcHandler.BeginProcessRequest (System.Web.HttpContextBase httpContext, System.AsyncCallback callback, System.Object state) [0x00012] in <cc73190bab9d435c831510ff295c572a>:0 
+  at System.Web.Mvc.MvcHandler.BeginProcessRequest (System.Web.HttpContext httpContext, System.AsyncCallback callback, System.Object state) [0x00007] in <cc73190bab9d435c831510ff295c572a>:0 
+  at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest (System.Web.HttpContext context, System.AsyncCallback cb, System.Object extraData) [0x00000] in <cc73190bab9d435c831510ff295c572a>:0 
+  at System.Web.HttpApplication+<Pipeline>d__225.MoveNext () [0x008d4] in <773b4d6751eb49b6b9905c61cc1619de>:0 
+  at System.Web.HttpApplication.Tick () [0x00000] in <773b4d6751eb49b6b9905c61cc1619de>:0 
+-->
+[root@localhost jexus]# firewall-cmd --zone=public --add-port=8082/tcp --permanent 
+success
+[root@localhost jexus]# firewall-cmd --reload 
+success
+[root@localhost jexus]# ifconfig
+eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.0.95  netmask 255.255.255.0  broadcast 192.168.0.255
+        inet6 fe80::215:5dff:fe00:5a14  prefixlen 64  scopeid 0x20<link>
+        ether 00:15:5d:00:5a:14  txqueuelen 1000  (Ethernet)
+        RX packets 105874  bytes 97384110 (92.8 MiB)
+        RX errors 0  dropped 98  overruns 0  frame 0
+        TX packets 39602  bytes 3377368 (3.2 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 0  (Local Loopback)
+        RX packets 2850  bytes 259812 (253.7 KiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 2850  bytes 259812 (253.7 KiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+virbr0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 192.168.122.1  netmask 255.255.255.0  broadcast 192.168.122.255
+        ether 82:b2:87:95:7b:b4  txqueuelen 0  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+[root@localhost jexus]# ./jws restart
+Restarting ... OK
+[root@localhost jexus]# ./jws restart
+Restarting ... OK
+[root@localhost jexus]# ./jws restart
+Restarting ... OK
+[root@localhost jexus]# 
